@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.hero-section{
+    padding: 100px 200px;
+    padding-bottom: 0;
+    margin-bottom: -50px;
+}
+.subtitle{
+    padding: 20px 240px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card div{
+    width: 430px;
+}
+.card div p{
+    margin-top: 10px;
+}
