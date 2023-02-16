@@ -1,0 +1,343 @@
+.footer{
+    display: block;
+    margin-top: 50px;
+}
+.footer-links{
+   width: 100%;
+   padding: 15px;
+   text-align: center;
+   font-size: 15px;
+}
+.social-icons{
+    margin-top: 10px;
+}
+.third p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.sub{
+    font-size: 0.8rem;
+    padding: 10px 10px;
+}
+.email-img{
+    width: 250px;
+}
+.footer-logo{
+    margin-top: 20px;
+    width: 250px;
+}
+.banner-4{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 0;
+}
+.heading{
+    font-size: 25px;
+    top: 10%;
+    width: 90%;
+}
+.desc{
+    width: 80%;
+    font-size: 1rem;
+    top: 50%;
+    text-align: center;
+}
+.btn{
+    top:85%;
+    padding: 10px 20px;
+}
+.banner-img{
+    width: 300%;
+    height: 90vh;
+}
+.collaboration{
+    width: 100%;
+    margin: 50px 0;
+    padding: 0 10px;
+}
+.banner-3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px; 
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text p{
+   margin-bottom: 20px;
+}
+.banner-3 img{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.banner-3 img:hover{
+   transform: scale(1.1);
+}
+.title{
+    font-size: 30px;
+    padding: 0 20%;
+    margin-top: 10%;
+}
+.sub-title{
+    margin-bottom: 10%;
+    font-size: 15px;
+    padding: 0 20%;
+}
+.card{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+}
+.card img{
+    width: 100%;
+}
+.card-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card-subtitle{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.banner-2{
+    position: relative;
+    height:250px;
+}
+.banner-2 img{
+    width: 100%;
+    top: 10%;
+    height:170px;
+}
+.gradient{
+    position: absolute;
+    top: 0;
+    width:110%;
+    height:170px;
+}
+.hero-section{
+   margin-top: 20px;
+}
+.banner-text1{
+    font-size: 30px;
+    padding: 0 8%;
+}
+.banner-text2{
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 0 15%;
+}
+.btn1{
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo{
+    margin-top: 10px;
+    align-self: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+@media(width>=750px){
+    .navbar{
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    .login{
+        margin: 0 0;
+        gap: 20px;
+    }
+    .banner-text1{
+        font-size: 50px;
+        padding: 0 15%;
+    }
+    .txt{
+        font-size: 35px;
+    }
+    .banner-text2{
+        font-size: 18px;
+        padding: 0 20%;
+    }
+    .btn1{
+        font-size: 1rem;
+    }
+    .banner-2{
+        position: relative;
+        height:600px;
+    }
+    .banner-2 img{
+        width: 100%;
+        top: 10%;
+        height:408px;
+    }
+    .gradient{
+        height:408px;
+    }
+    .card{
+        flex-wrap: nowrap; 
+        padding: 0 20px;
+      }
+      .mid{
+        flex-direction: row-reverse;
+      }
+      .card img{
+          width: 50%;
+      }
+      .card-title{
+        width: 90%;
+          font-size: 27px;
+      }
+      .card-subtitle{
+          font-size: 18px;
+          width: 90%;
+      }
+
+    .title{
+        font-size: 35px;
+        padding: 0 10%;
+    }
+    .sub-title{
+        font-size: 20px;
+        padding: 0 10%;
+    }
+   
+    .heading{
+        font-size: 35px;
+        top: 10%;
+        width: 60%;
+    }
+    .desc{
+        width: 60%;
+        font-size: 1rem;
+        top: 50%;
+    }
+   .btn{
+    top:80%;
+   }
+    .banner-img{
+        width: 250%;
+    }
+   .footer-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   } 
+   .footer-logo{
+    width: 250px;
+}
+.email-img{
+    width: 250px;
+}
+.collaboration{
+    padding: 0 50px;
+}
+}
+@media(width>=1000px){
+    .card{
+        padding: 0 50px;
+      }
+      .card img{
+          width: 35%;
+      }
+      .card-title{
+        padding: 0 20%;
+        text-align: left;
+          font-size: 32px;
+      }
+      .mid .card-title,.mid .card-subtitle{
+        text-align: right;
+      }
+      .card-subtitle{
+          font-size: 18px;
+          padding: 0 20%;
+          text-align: left;
+      }
+    .hero-section{
+        margin-top: 50px;
+    }
+    .banner-text1{
+        font-size: 70px;
+        padding: 0 15%;
+    }
+    .txt{
+        font-size: 45px;
+    }
+    .banner-text2{
+        font-size: 22px;
+        padding: 0 20%;
+    }
+    .btn1{
+        font-size: 1.3rem;
+    }
+    .banner-2{
+        position: relative;
+        height:600px;
+    }
+    .banner-2 img{
+        width: 100%;
+        top: 10%;
+        height:650px;
+    }
+    .gradient{
+        height:400px;
+    }
+    .banner-3{
+        flex-wrap: nowrap;
+        padding-top: 50px;
+    }
+    .collaboration{
+        padding: 0 50px;
+    }
+    .footer-links{
+     gap: 100px;
+     padding: 5% 10%;
+    } 
+    .footer-links div{
+    width: 100%;
+    text-align: left;
+    }
+    .footer-desc{
+        margin: 10px 0;
+    }
+    .footer-logo{
+        width: 250px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .heading{
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    .desc{
+        font-size: 1.2rem;
+        margin-left: 100px;
+    }
+    .banner-4{
+        margin: 0 100px;
+    }
+ }
+ @media(width>=1000px){
+    .banner-2{
+        position: relative;
+        height:890px;
+    }
+    .gradient{
+        height:638px;
+    }}
